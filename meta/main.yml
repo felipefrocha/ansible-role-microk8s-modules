@@ -1,0 +1,25 @@
+galaxy_info:
+  role_name: microk8s_modules
+  author: Felipe Rocha
+  description: Enables modules for microk8s and configure requirements for it
+  company: Raipe Systems
+
+  license: MIT
+
+  min_ansible_version: 2.10
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - 18.04
+    - 20.04
+    
+  galaxy_tags:
+    - Microk8s
+    - Modules
+    - Ubuntu
+
+dependencies: 
+  - src: https://github.com/felipefrocha/ansible-role-microk8s-install
+    version: master
+    name: microk8s_install 

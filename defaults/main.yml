@@ -1,0 +1,4 @@
+---
+# defaults file for config_micmod
+k8s_dashboard: True
+enable_elk: False
