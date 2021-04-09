@@ -19,7 +19,7 @@ galaxy_info:
     - Modules
     - Ubuntu
 
-dependencies: 
-  - src: https://github.com/felipefrocha/ansible-role-microk8s-install
-    version: master
-    name: microk8s_install 
+dependencies: []
+  # - src: https://github.com/felipefrocha/ansible-role-microk8s-install
+  #   version: master
+  #   name: microk8s_install 
